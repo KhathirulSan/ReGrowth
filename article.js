@@ -1,7 +1,7 @@
 let dataJson
 let wrapperCard = document.querySelector("#wrapperCard")
 async function logJSONData() {
-    const response = await fetch("https://64550855f803f34576385d7b.mockapi.io/article");
+    const response = await fetch("https://64550855f803f34576385d7b.mockapi.io/article/");
     dataJson = await response.json();
     dataJson.forEach(element => {
         wrapperCard.innerHTML+= `
