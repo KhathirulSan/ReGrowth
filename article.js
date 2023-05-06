@@ -14,7 +14,7 @@ async function logJSONData() {
                 <p>${(element.text)}</p>
                 </div>
                 <div class="article-view"> 
-                    <a href="${window.location.hostname + 'detail-article.html?id=' + element.id}" id="btn" class="button">Read More</a>
+                <a href="detail-article.html?id=${element.id}" id="btn" class="button">Read More</a>
                 </div>
                 <div class="posted-date">
                     <p>${(element.date)}</p>
